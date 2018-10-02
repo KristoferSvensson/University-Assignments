@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SensorLab1Extended</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="accelerometer">Measures the acceleration force in m/s2 that is applied to a device on all three physical axes (x, y, and z), including the force of gravity.</string>
+    <string name="linearAcceleration">Measures the acceleration force in m/s2 that is applied to a device on all three physical axes (x, y, and z), excluding the force of gravity.</string>
+    <string name="linearAccelerationiNemoEngine">iNemoEngine Linear Acceleration sensor</string>
+    <string name="magneticField">Measures the ambient geomagnetic field for all three physical axes (x, y, z) in μT.</string>
+    <string name="magneticFieldUncalibrated">AK8975C Magnetic field Sensor UnCalibrated</string>
+    <string name="lightSensor">Measures the ambient light level (illumination) in lx.</string>
+    <string name="orientationSensor">Measures degrees of rotation that a device makes around all three physical axes (x, y, z).</string>
+    <string name="orientationSensoriNemoEngine">iNemoEngine Orientation sensor</string>
+    <string name="proximitySensor">Measures the proximity of an object in cm relative to the view screen of a device. This sensor is typically used to determine whether a handset is being held up to a person\'s ear.</string>
+    <string name="gyroscope">Measures a device\'s rate of rotation in rad/s around each of the three physical axes (x, y, and z).</string>
+    <string name="gyroscopeCorrected">Corrected Gyroscope Sensor</string>
+    <string name="gyroscopeUncalibrated">Uncalibrated Gyroscope Sensor</string>
+    <string name="gravitySensor">Measures the force of gravity in m/s2 that is applied to a device on all three physical axes (x, y, z).</string>
+    <string name="gravitySensoriNemoEngine">iNemoEngine Gravity sensor</string>
+    <string name="rotationSensorAuto">Auto Rotation Sensor</string>
+    <string name="rotationSensor">Measures the orientation of a device by providing the three elements of the device\'s rotation vector.</string>
+    <string name="rotationSensorGame">The game rotation vector sensor is identical to the Rotation Vector Sensor, except it does not use the geomagnetic field. Therefore the Y axis does not point north but instead to some other reference. That reference is allowed to drift by the same order of magnitude as the gyroscope drifts around the Z axis.</string>
+    <string name="rotationSensoriNemoEngine">iNemoEngine Rotation_Vector sensor</string>
+    <string name="pressureSensor">Measures the ambient air pressure in hPa or mbar.</string>
+    <string name="accuracy">"Accuracy: "</string>
+    <string name="timestamp">"Timestamp: "</string>
+
+</resources>

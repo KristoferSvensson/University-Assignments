@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="se.mah.ad8885.sensorlab2.Front_frag">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="The Weather Channel"
+        android:layout_width="match_parent"
+        android:id="@+id/tvAppname"
+        android:textStyle="normal|bold|italic"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:layout_height="wrap_content"
+        android:elevation="1dp" />
+
+    <TextView
+        android:text="Currently reading the weather in Malmö"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCitySubtitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:elevation="1dp" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/pressure"
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            android:layout_width="60dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/layoutPressure"
+            android:background="@color/valueSection"
+            android:layout_weight="8"
+            android:minHeight="0dp">
+
+            <TextView
+                android:text="Pressure:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_Pressure"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Accuracy:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_Accuracy"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Timestamp:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_Timestamp"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_ASTInfo"
+                android:textColor="@color/AST"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_ASTPressure"
+                android:textColor="@color/AST"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/humidity"
+            android:id="@+id/imageView2"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutHumidity"
+            android:background="@color/valueSection"
+            android:layout_weight="8">
+
+            <TextView
+                android:text="Humidity:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/h_Humidity"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Accuracy:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/h_Accuracy"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Timestamp:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/h_Timestamp"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/h_ASTInfo"
+                android:textColor="@color/AST"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/h_ASTHumidity"
+                android:textColor="@color/AST"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/temp"
+            android:id="@+id/imageView3"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutTemp"
+            android:background="@color/valueSection"
+            android:layout_weight="8">
+
+            <TextView
+                android:text="Temperature:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_Temp"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Accuracy:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_Accuracy"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Timestamp:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_Timestamp"
+                android:textColor="@android:color/background_light"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_ASTInfo"
+                android:textColor="@color/AST"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_ASTTemperature"
+                android:textColor="@color/AST"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutAltitude"
+        android:background="@color/valueSection">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAltitude"
+        android:textColor="@color/AST"
+        android:elevation="1dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutASTBtn">
+
+        <Button
+            android:text="Get API data using ASyncTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAST"
+            android:elevation="7dp"
+            android:background="@color/ButtonBlue"
+            android:textColor="@android:color/background_light"
+            android:padding="4dp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="8dp"/>
+
+        <Button
+            android:text="Get API data using Volley"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVolley"
+            android:elevation="7dp"
+            android:background="@color/ButtonBlue"
+            android:textColor="@android:color/background_light"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

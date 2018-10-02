@@ -1,0 +1,97 @@
+Jun 21, 2018 9:54:32 AM server.Server addToLog
+INFO: Koffe connected.
+Jun 21, 2018 9:54:36 AM server.Server addToLog
+INFO: Amar connected.
+Jun 21, 2018 9:54:40 AM server.Server addToLog
+INFO: Rolf connected.
+Jun 21, 2018 9:54:45 AM server.Server addToLog
+INFO: [09:54] <Koffe> hej
+
+Jun 21, 2018 9:54:50 AM server.Server addToLog
+INFO: [09:54] <Amar> hej
+
+Jun 21, 2018 9:54:53 AM server.Server addToLog
+INFO: [09:54] <Rolf> juk
+
+Jun 21, 2018 9:55:09 AM server.Server addToLog
+INFO: null sent an image file: 20180607_182808.jpg
+Jun 21, 2018 10:04:00 AM server.Server addToLog
+INFO: [10:04] <Amar> kkk
+
+Jun 21, 2018 10:04:06 AM server.Server addToLog
+INFO: [10:04] <Amar> alkjsdnas
+
+Jun 21, 2018 10:04:21 AM server.Server addToLog
+INFO: [10:04] <Amar> kokojojoj
+
+Jun 21, 2018 10:04:30 AM server.Server addToLog
+INFO: [10:04] <Amar> ksmlakdmalkdma
+
+Jun 21, 2018 10:06:07 AM server.Server addToLog
+INFO: Amar disconnected.
+Jun 21, 2018 10:06:24 AM server.Server addToLog
+INFO: [10:06] <Rolf> Offline meddelande
+
+Jun 21, 2018 10:06:33 AM server.Server addToLog
+INFO: Amar connected.
+Jun 21, 2018 10:12:52 AM server.Server addToLog
+INFO: Koffe disconnected.
+Jun 21, 2018 10:12:55 AM server.Server addToLog
+INFO: Amar disconnected.
+Jun 21, 2018 10:12:57 AM server.Server addToLog
+INFO: Rolf disconnected.
+Jun 21, 2018 11:02:30 AM server.Server addToLog
+INFO: Kristofer connected.
+Jun 21, 2018 11:02:41 AM server.Server addToLog
+INFO: Amar connected.
+Jun 21, 2018 11:02:48 AM server.Server addToLog
+INFO: Rolf connected.
+Jun 21, 2018 11:02:59 AM server.Server addToLog
+INFO: [11:02] <Rolf> tjena
+
+Jun 21, 2018 11:03:11 AM server.Server addToLog
+INFO: null sent an image file: BILD.jpg
+Jun 21, 2018 11:03:33 AM server.Server addToLog
+INFO: [11:03] <Rolf> hej amar
+
+Jun 21, 2018 11:03:45 AM server.Server addToLog
+INFO: Amar disconnected.
+Jun 21, 2018 11:03:56 AM server.Server addToLog
+INFO: [11:03] <Rolf> Du är offline
+
+Jun 21, 2018 11:04:04 AM server.Server addToLog
+INFO: Amar connected.
+Jun 21, 2018 11:04:11 AM server.Server addToLog
+INFO: Amar disconnected.
+Jun 21, 2018 11:04:17 AM server.Server addToLog
+INFO: [11:04] <Rolf> Hej igen
+
+Jun 21, 2018 11:04:22 AM server.Server addToLog
+INFO: [11:04] <Kristofer> tjena
+
+Jun 21, 2018 11:04:31 AM server.Server addToLog
+INFO: [11:04] <Kristofer> hallå
+
+Jun 21, 2018 11:04:41 AM server.Server addToLog
+INFO: null sent an image file: BILD.jpg
+Jun 21, 2018 11:04:51 AM server.Server addToLog
+INFO: Amar connected.
+Jun 21, 2018 11:11:14 AM server.Server addToLog
+INFO: Rolf disconnected.
+Jun 21, 2018 11:11:16 AM server.Server addToLog
+INFO: Kristofer disconnected.
+Jun 21, 2018 11:11:42 AM server.Server addToLog
+INFO: Koffe connected.
+Jun 21, 2018 11:11:51 AM server.Server addToLog
+INFO: [11:11] <Koffe> meddelande 1
+
+Jun 21, 2018 11:11:56 AM server.Server addToLog
+INFO: Rolf connected.
+Jun 21, 2018 11:12:00 AM server.Server addToLog
+INFO: Rolf disconnected.
+Jun 21, 2018 11:12:07 AM server.Server addToLog
+INFO: Rolf connected.
+Jun 21, 2018 11:13:27 AM server.Server addToLog
+INFO: Koffe disconnected.
+Jun 21, 2018 11:13:29 AM server.Server addToLog
+INFO: Rolf disconnected.

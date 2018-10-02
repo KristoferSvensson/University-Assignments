@@ -1,0 +1,25 @@
+!SESSION 2018-05-30 19:28:30.915 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\oskar\Documents\GitHub\BeaverCoffee\BeaverCoffeeAB\src -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 0 2018-05-30 19:28:37.384
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-05-30 19:28:37.471
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.togethersoft.selena.sapient' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-05-30 19:28:37.489
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.togethersoft.togetherxj.gsd.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2018-05-30 19:28:40.947
+!MESSAGE Setup tasks were performed during startup updating 166 preferences. See 'C:\Users\oskar\eclipse\java-mars\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b377a</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ffff0000</color>
+    <color name="ButtonBlue">#2e3059</color>
+    <color name="valueSection">#262741</color>
+    <color name="AST">#e1a34d</color>
+    <color name="Volley">#6be14d</color>
+</resources>
